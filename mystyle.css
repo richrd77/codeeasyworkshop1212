@@ -1,0 +1,59 @@
+.pink-paragraph {
+color:deeppink;
+background-color:rgba(200,200,200,0.8);
+font-size:4rem;
+text-decoration: underline;
+text-transform: lowercase;
+}
+
+#mydiv {
+margin:12px;
+background-color:yellow;
+height:50%;
+width:40%;
+border:10px dotted pink;
+border-radius:50%;
+}
+
+
+ul {
+cursor:pointer;
+}
+
+ul li::marker {
+color:red;
+}
+
+
+.hdn {
+visibility:hidden;
+}
+
+button {
+background-color:lightblue;
+color:white;
+border:2px solid blue;
+}
+
+button:hover {
+background-color:blue;
+}
+
+.new {
+background-color:orange;
+border:1px solid rgba(255,165,0,0.2);
+outline:1px solid rgba(255,165,0,0.2);
+}
+
+.new:focus {
+background-color:red;
+}
+
+
+p {
+background-color:rgba(0,0,0,0.2);
+}
+
+span {
+color:red;
+}
